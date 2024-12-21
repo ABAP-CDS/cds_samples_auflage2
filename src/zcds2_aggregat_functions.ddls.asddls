@@ -1,4 +1,5 @@
 @EndUserText.label: 'Aggregat functions'
+@AbapCatalog.viewEnhancementCategory: [#PROJECTION_LIST, #GROUP_BY]
 define view entity zcds2_aggregat_functions as select 
   from /dmo/flight {
 

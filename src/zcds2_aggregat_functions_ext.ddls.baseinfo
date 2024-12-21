@@ -3,8 +3,7 @@
 {
 "FROM":
 [
-"/DMO/A_BOOKING_D",
-"ZCDS2_MEAL_PREFS"
+"/DMO/FLIGHT"
 ],
 "ASSOCIATED":
 [],

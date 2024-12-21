@@ -1,5 +1,6 @@
 @EndUserText.label: 'Union clause for flight booking'
 @Metadata.ignorePropagatedAnnotations: true
+@AbapCatalog.viewEnhancementCategory: [ #PROJECTION_LIST, #UNION ]
 define view entity zcds2_booking_union as 
   select from /dmo/booking{
 
