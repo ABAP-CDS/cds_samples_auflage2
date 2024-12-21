@@ -6,7 +6,8 @@ CLASS zcds_financial_documents DEFINITION
   PUBLIC SECTION.
     TYPES:
       _documents TYPE STANDARD TABLE OF
-        zcds2_financial_documents.
+        zcds2_financial_documents
+        WITH NON-UNIQUE DEFAULT KEY.
 
     CLASS-METHODS read_documents_classical
       EXPORTING
