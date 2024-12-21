@@ -1,0 +1,8 @@
+@EndUserText.label: 'Access Control for Flight Booking'
+@MappingRole: true
+define role ZCDS2_AC_FLIGHT_BOOKING {
+  grant
+    select on zcds2_flight_booking
+      where
+        (carrier_id) = aspect pfcg_auth( ZAIRLINE, CARRIER_ID, ACTVT = '03' );                  
+}

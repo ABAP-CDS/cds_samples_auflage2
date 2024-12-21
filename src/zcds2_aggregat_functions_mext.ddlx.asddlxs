@@ -1,0 +1,11 @@
+@Metadata.layer: #CORE
+annotate entity zcds2_aggregat_functions
+    with 
+{
+    @EndUserText.label: 'Maximum flight price'
+    max_price;
+    @EndUserText.label: 'Minimum flight price'
+    min_price;
+    @EndUserText.label: 'Average flight price'
+    avg_price;
+}

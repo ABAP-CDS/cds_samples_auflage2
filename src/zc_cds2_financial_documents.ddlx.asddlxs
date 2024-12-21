@@ -1,0 +1,99 @@
+@Metadata.layer: #CORE
+@UI.headerInfo.typeName: 'Projection CDS View for ZCDS2_FINANCIAL_DOCUMENTS'
+@UI.headerInfo.typeNamePlural: 'Projection CDS View for ZCDS2_FINANCIAL_DOCUMENTS'
+@UI.headerInfo.title.type: #STANDARD
+@UI.headerInfo.title.value: 'gjahr'
+@UI.headerInfo.description.type: #STANDARD
+@UI.headerInfo.description.value: 'gjahr'
+annotate view ZC_CDS2_FINANCIAL_DOCUMENTS with
+{
+  @UI.facet: [ {
+    label: 'General Information', 
+    id: 'GeneralInfo', 
+    purpose: #STANDARD, 
+    position: 10 , 
+    type: #IDENTIFICATION_REFERENCE
+  } ]
+  @UI.identification: [ {
+    position: 10 
+  } ]
+  @UI.lineItem: [ {
+    position: 10 
+  } ]
+  @UI.selectionField: [ {
+    position: 10 
+  } ]
+  gjahr;
+  
+  @UI.identification: [ {
+    position: 20 
+  } ]
+  @UI.lineItem: [ {
+    position: 20 
+  } ]
+  @UI.selectionField: [ {
+    position: 20 
+  } ]
+  belnr;
+  
+  @UI.identification: [ {
+    position: 30 
+  } ]
+  @UI.lineItem: [ {
+    position: 30 
+  } ]
+  @UI.selectionField: [ {
+    position: 30 
+  } ]
+  bukrs;
+  
+  @UI.identification: [ {
+    position: 40 
+  } ]
+  @UI.lineItem: [ {
+    position: 40 
+  } ]
+  @UI.selectionField: [ {
+    position: 40 
+  } ]
+  buzei;
+  
+  @UI.identification: [ {
+    position: 50 
+  } ]
+  @UI.lineItem: [ {
+    position: 50 
+  } ]
+  @UI.selectionField: [ {
+    position: 50 
+  } ]
+  budat;
+  
+  @EndUserText.label: 'debit'
+  @UI.identification: [ {
+    position: 60 , 
+    label: 'debit'
+  } ]
+  @UI.lineItem: [ {
+    position: 60 , 
+    label: 'debit'
+  } ]
+  @UI.selectionField: [ {
+    position: 60 
+  } ]
+  debit;
+  
+  @EndUserText.label: 'credit'
+  @UI.identification: [ {
+    position: 70 , 
+    label: 'credit'
+  } ]
+  @UI.lineItem: [ {
+    position: 70 , 
+    label: 'credit'
+  } ]
+  @UI.selectionField: [ {
+    position: 70 
+  } ]
+  credit;
+}

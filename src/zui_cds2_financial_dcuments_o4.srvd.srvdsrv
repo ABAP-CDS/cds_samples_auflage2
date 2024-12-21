@@ -1,0 +1,11 @@
+@EndUserText: {
+  label: 'Service Definition for ZC_CDS2_FINANCIAL_DOCUMENTS'
+}
+@ObjectModel: {
+  leadingEntity: {
+    name: 'ZC_CDS2_FINANCIAL_DOCUMENTS'
+  }
+}
+define service ZUI_CDS2_FINANCIAL_DCUMENTS_O4 provider contracts odata_v4_ui {
+  expose ZC_CDS2_FINANCIAL_DOCUMENTS;
+}
